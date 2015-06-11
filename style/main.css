@@ -1,0 +1,19 @@
+
+textarea.demo {
+  width: 800px;
+  margin: 70px auto;
+  display: block;
+  padding: 0.5em;
+  font-family: Menlo, monospace;
+  font-size: 16px;
+  border: 1px solid hsl(0, 0%, 86%);
+  min-height: 200px;
+  outline: none;
+}
+
+a.github {
+  display: block;
+  text-align: center;
+  font-family: Futura;
+  margin: 40px;
+}
