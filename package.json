@@ -1,6 +1,6 @@
 {
   "name": "textarea-indent",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Add a little indentation in textarea",
   "main": "lib/indent.js",
   "scripts": {

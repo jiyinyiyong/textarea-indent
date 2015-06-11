@@ -4,7 +4,7 @@ var getHeadSpace $ \ (text head)
     do $ return $ getHeadSpace (text.substr 1) (+ head ": ")
     do $ return head
 
-= exports.bearksHandler $ \ (event)
+= exports.newlineHandler $ \ (event)
   if (isnt event.keyCode 13) $ do
     return undefined
   if (or event.metaKey event.ctrlKey event.shiftKey) $ do

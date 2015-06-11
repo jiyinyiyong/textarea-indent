@@ -16,7 +16,7 @@ npm i --save textarea-indent
 indent = require 'textarea-indent'
 
 textarea = document.querySelector '#demo'
-textarea.addEventListener 'keydown', indent.bearksHandler
+textarea.addEventListener 'keydown', indent.newlineHandler
 ```
 
 ### Develop
